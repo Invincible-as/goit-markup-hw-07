@@ -1,3 +1,8 @@
+.contact-phone-number {
+    @extend %aling;
+    column-gap: 10px;
+}
+
 .contact .contact-phone-number {
     color: var(--titel-text-color);
     font-weight: 500;
@@ -6,24 +11,18 @@
     letter-spacing: 0.02em;
     transition: color var(--transition-dur-and-func);
 
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+
 }
 
-.contact .contact-phone-number:hover,
-.contact .contact-phone-number:focus {
-    color: var(--accent-color);
-}
-
-.contact-phone-number {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 10px;
+.contact-icon {
+    fill: currentColor;
 }
 
 .mail-list-item-link {
     fill: var(--titel-text-color);
 }
 
-.contact-icon {
-    fill: currentColor;
-}

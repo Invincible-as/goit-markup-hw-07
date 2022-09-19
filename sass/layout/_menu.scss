@@ -20,36 +20,40 @@
 
     color: var(--accent-color);
 
+    &::after {
+        position: absolute;
+        display: block;
+        content: '';
+        width: 45px;
+        height: 4px;
+        margin-top: 25px;
+        background: #2196F3;
+        border-radius: 2px;
+    }
+
 
 }
 
 .menu .link-current-portfolio {
     color: var(--accent-color);
 
-}
-
-.link-current::after {
-    position: absolute;
-    display: block;
-    content: '';
-    width: 45px;
-    height: 4px;
-    margin-top: 25px;
-    background: #2196F3;
-    border-radius: 2px;
-}
-
-.link-current-portfolio::after {
-    position: absolute;
-    display: block;
-    content: '';
-    width: 73px;
-    height: 4px;
-    margin-top: 25px;
-    background: #2196F3;
-    border-radius: 2px;
+    &::after {
+            position: absolute;
+            display: block;
+            content: '';
+            width: 73px;
+            height: 4px;
+            margin-top: 25px;
+            background: #2196F3;
+            border-radius: 2px;
+    
+        }
 
 }
+
+
+
+
 
 .menu {
     align-items: center;

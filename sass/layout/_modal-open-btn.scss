@@ -8,22 +8,18 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
-
-
-}
-
-
-
-.modal-open-btn:hover,
-.modal-open-btn:focus {
-
-
-    color: var(--stock-color);
-    background-color: var(--accent-color);
-
-
-}
-
-.modal-open-btn {
     padding: 10px 32px;
+
+    &:hover,
+    &:focus {
+    
+    
+            color: var(--stock-color);
+            background-color: var(--accent-color);
+    
+        }
+
 }
+
+
+

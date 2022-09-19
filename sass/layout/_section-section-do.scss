@@ -1,10 +1,9 @@
 .section-do {
     background-color: var(--stock-color);
-}
 
-.section-do {
     padding-bottom: 94px;
 }
+
 
 .section-list-do {
     display: flex;
@@ -24,16 +23,11 @@
 
     position: relative;
 
-
-
-
 }
 
 .section-do-label {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %aling;
     position: absolute;
     bottom: 0;
     width: 370px;
