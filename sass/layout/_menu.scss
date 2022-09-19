@@ -1,4 +1,4 @@
-.menu .menu-link {
+.menu .menu__link {
     position: relative;
     color: #212121;
     font-weight: 500;
@@ -9,8 +9,8 @@
 
 }
 
-.menu .menu-link:hover,
-.menu .menu-link:focus {
+.menu .menu__link:hover,
+.menu .menu__link:focus {
     color: var(--accent-color);
 
 

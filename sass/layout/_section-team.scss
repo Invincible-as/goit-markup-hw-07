@@ -1,8 +1,8 @@
-.team {
+.section__team {
     background-color: var(--tem-color);
 }
 
-.team-list .team-title {
+.section-team__list .section-team__title {
     color: var(--primery-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -14,7 +14,7 @@
 
 }
 
-.team-list .work-title {
+.section-team__list .section-team-work__title {
     color: var(--titel-text-color);
     font-weight: 400;
     font-size: 16px;
@@ -24,7 +24,7 @@
 
 }
 
-.team-list {
+.section-team__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -32,11 +32,11 @@
 }
 
 
-.work-title {
+.section-team-work__title {
     margin-bottom: 16px;
 }
 
-.team-list-link {
+.section-team-list__link {
     background: var(--stock-color);
     flex-basis: calc((100% - 90px) / 4);
     max-width: 100%;
@@ -59,7 +59,7 @@
 }
 
 .social-list__item-link {
-    @extend %aling;
+     @extend %aling;
     width: 44px;
     height: 44px;
     border-radius: 50%;

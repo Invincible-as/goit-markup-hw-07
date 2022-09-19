@@ -1,4 +1,4 @@
-.sentence-list .titel {
+.sentence__list .titel {
     color: var(--primery-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -16,7 +16,7 @@
 
 }
 
-.sentence-list {
+.sentence__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -24,13 +24,13 @@
 
 }
 
-.section-sentence-item {
+.section-sentence__item {
     flex-basis: calc((100% - 90px) / 4);
 
 
 }
 
-.sentence-icon {
+.sentence__icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +43,7 @@
 
 }
 
-.sentence-icon-list-item {
+.sentence__icon-list-item {
 
 
     padding: 25px 100px;
@@ -52,7 +52,7 @@
 
 }
 
-.section-sentence-list {
+.section-sentence__list {
     display: flex;
     align-items: center;
     justify-content: space-between;

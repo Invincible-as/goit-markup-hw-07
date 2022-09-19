@@ -5,13 +5,13 @@
 }
 
 
-.section-list-do {
+.section-list__do {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.section-list-do-item {
+.section-list-do__item {
     flex-basis: calc((100% - 60px) / 3);
     max-width: 100%;
     height: auto;
@@ -19,13 +19,13 @@
 }
 
 
-.section-do-thumb {
+.section-do__thumb {
 
     position: relative;
 
 }
 
-.section-do-label {
+.section-do__label {
 
     @extend %aling;
     position: absolute;
