@@ -4,8 +4,13 @@
 }
 
 .modal-form-field {
-    margin-bottom: 20px;
+    
+    margin-bottom: 10px;
 
+}
+
+.modal-form-field_last {
+    margin-bottom: 20px;
 }
 
 .modal-form-field-desc {
@@ -111,7 +116,7 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 7px;
-    transition: fill border (--transition-dur-and-func);
+    transition: border (--transition-dur-and-func);
 
     .modal-form-check:focus+& {
     

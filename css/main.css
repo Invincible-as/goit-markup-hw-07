@@ -201,6 +201,10 @@ address {
 }
 
 .modal-form-field {
+  margin-bottom: 10px;
+}
+
+.modal-form-field_last {
   margin-bottom: 20px;
 }
 
@@ -307,9 +311,10 @@ address {
   border-radius: 2px;
   cursor: pointer;
   margin-right: 7px;
-  -webkit-transition: fill border --transition-dur-and-func;
-  transition: fill border --transition-dur-and-func;
+  -webkit-transition: fill border var(--transition-dur-and-func);
+  transition: fill border var(--transition-dur-and-func);
 }
+
 .modal-form-check:focus + .modal-form-own-checkbox {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
